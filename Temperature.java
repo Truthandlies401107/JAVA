@@ -9,7 +9,7 @@ class Display {
         System.out.println("The equivalent Fahrenheit temperature is: " + fahrenheitTemperature + " °F");
     }
 }
-class Main {
+public class Main {
     public static void main(String[] args) {
         double celsiusTemperature = 25.0;
         Display.displayFahrenheit(celsiusTemperature);
