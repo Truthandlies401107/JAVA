@@ -1,9 +1,12 @@
 ------------------------------------------------------------------------
-JAVA
+This is the project README file. Here, you should describe your project.
+Tell the reader (someone who does not know anything about this project)
+all they need to know. The comments should usually include at least:
 ------------------------------------------------------------------------
-PROJECT TITLE: BLUE J JAVA
-PURPOSE OF PROJECT: FOR THE EASY AVABILITY OR ACCESS FOR GIT JAVA CODERS
-VERSION or DATE: 6 DECEMBER 2023
-HOW TO START THIS PROJECT: CLICK ON THE SOURCE FILE 
-AUTHORS: TRUTHANDLIES401107
+
+PROJECT TITLE:
+PURPOSE OF PROJECT:
+VERSION or DATE:
+HOW TO START THIS PROJECT:
+AUTHORS:
 USER INSTRUCTIONS:
