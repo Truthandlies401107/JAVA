@@ -2,8 +2,8 @@ public class Time {
     private int hr;
     private int min;
     Time(int hr, int min) {
-        hr = hr;
-        min = min;
+        this.hr = hr;
+        this.min = min;
     }
     public static Time addTime(Time t1, Time t2) {
         int min = t1.min + t2.min;
@@ -15,4 +15,3 @@ public class Time {
         System.out.println(this.hr + " hours and " + this.min + " minutes");
     }
 }
-

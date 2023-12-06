@@ -1,35 +1,49 @@
-import java.util.Scanner;
+import java.util.*;
 public class Student {
-    private int rollNo;
-    private String name;
-    private int marks1;
-    private int marks2;
-    private double average;
-    private void calculateAverage() {
-        average = (marks1 + marks2) / 2.0;
+    int a,b,c,avg,per;
+    String rollon, name;
+    char ch;
+    Scanner s = new Scanner(System.in);
+    void take1(){
+        System.out.println("Enter the roll on.");
+        rollon = s.next();
     }
-    public void set() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter Roll No (2 digits): ");
-        rollNo = scanner.nextInt();
-        System.out.print("Enter Name (up to 20 characters): ");
-        name = scanner.nextLine();
-        System.out.print("Enter Marks for Test 1: ");
-        marks1 = scanner.nextInt();
-        System.out.print("Enter Marks for Test 2: ");
-        marks2 = scanner.nextInt();
-        calculateAverage();
+    void take2(){
+        System.out.println("Enter the student name: ");
+        name = s.next();
     }
-    public void display() {
-        System.out.println("Roll No: " + rollNo);
-        System.out.println("Name: " + name);
-        System.out.println("Marks for Test 1: " + marks1);
-        System.out.println("Marks for Test 2: " + marks2);
-        System.out.println("Average Marks: " + average);
+    void take3(){
+       System.out.println("Enter the marks1 :");
+       a = s.nextInt();
+       System.out.println("Enter the marks2 :");
+       b = s.nextInt();
+       System.out.println("Enter the marks3 :");
+       c = s.nextInt();
+       //Now
+       avg = (a+b+c)/3; 
     }
-    public static void main(String[] args) {
-        Student student = new Student();
-        student.set();
-        student.display();
+    void take4(){
+        //Take total marks for each subject 100.
+        per = (int) (((float) (a + b + c) / 300) * 100.0);
+    }
+    void take5(){
+        System.out.println("Enter your grades: ");
+        ch = s.next().charAt(0);
+    }
+    void display(){
+        System.out.println("The name of the student: "+name);
+        System.out.println("The rollon of the student: "+rollon);
+        System.out.println("The average marks: "+avg);
+        System.out.println("The Percantage got: "+per);
+        System.out.println("Your grade: "+ch);
+    }
+    public static void main(String args[]){
+        Student obj = new Student();
+        obj.take1();
+        obj.take2();
+        obj.take3();
+        obj.take4();
+        obj.take5();
+        obj.display();
     }
 }
