@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=HighestLowestScorers
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=marksArray
+comment2.target=int\ findHighestScorer(int[])
+comment3.params=marksArray
+comment3.target=int\ findLowestScorer(int[])
+numComments=4

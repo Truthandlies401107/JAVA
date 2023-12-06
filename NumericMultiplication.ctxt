@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=NumericMultiplication
+comment1.params=num1\ num2\ num3
+comment1.target=NumericMultiplication(double,\ int,\ float)
+comment2.params=
+comment2.target=int\ performMultiplication()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

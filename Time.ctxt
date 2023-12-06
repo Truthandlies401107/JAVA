@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Time
+comment1.params=hr\ min
+comment1.target=Time(int,\ int)
+comment2.params=t1\ t2
+comment2.target=Time\ addTime(Time,\ Time)
+comment3.params=
+comment3.target=void\ display()
+numComments=4
