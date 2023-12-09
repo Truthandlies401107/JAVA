@@ -1,20 +1,25 @@
+import java.util.*;
 public class Bubble{
     public static void main(String args[]){
-        int a[] = {32,42,64,12,11,23};
-        int l = a.length;
-        for(int i = 0; i < l-i; i++){
-            for(int j = 0; j < l-i-1; j++){
-                if(a[j]>a[j+1]){
-                    int t = a[j];
-                    a[j] = a[j+1];
-                    a[j+1] = t;
+        Scanner s = new Scanner(System.in);
+        String l = "";
+        String names[] = new String[10];
+        System.out.println("Enter The Names: ");
+        for(int i = 0; i<10; i++){
+            names[i] = s.nextLine();
+        }
+        for(int i = 0; i< 9; i++){
+            for(int j =0; j< 9-i; j++ ){
+                if(names[j].compareTo(names[j+1])<0){
+                    l = names[j];
+                    names[j] = names[j+1];
+                    names[j+1] = l;
                 }
             }
-        }   
-        for(int i = 0; i < l; i++){
-            System.out.println(" "+a[i]);
         }
-
+        System.out.println("The sorted array are: ");
+        for(int i =0; i<10; i++){
+            System.out.println(names[i]);
+        }
     }
 }
-
