@@ -1,10 +1,34 @@
-public class Length{
-    public static void main(String args[]){
-        int array[] = {23, 42, 43, 53, 32, 54};
-        int a = array.length;
-        System.out.println("The length of the arrays is: "+a);
+package JAVA;
+
+import java.util.Scanner;
+
+public class Length {
+    public static void main(String args[]) {
+        int ch;
+        String a;
+        try (Scanner s = new Scanner(System.in)) {
+            System.out.println("Enter your choice: ");
+            ch = s.nextInt();
+            s.nextLine(); // Consume the newline character
+            System.out.println("Enter a String: ");
+            a = s.nextLine();
+        }
+        if (ch == 1) {
+            for (int i = 1; i <= a.length(); i++) {
+                for (int j = 1; j <= i; j++) {
+                    System.out.print(a.length() + " " + j + " ");
+                }
+                System.out.println();
+            }
+        } else if (ch == 2) {
+            for (int i = a.length(); i >= 1; i--) {
+                for (int j = 1; j <= i; j++) {
+                    System.out.print(a.length() + " " + j + " ");
+                }
+                System.out.println();
+            }
+        } else {
+            System.out.println("Invalid choice");
+        }
     }
 }
-/* WAP in java to input 10 numbers in an 1-D array find the largest, second largest and the smallest
-   element of array */
-/* WAP to input numbers in a 4*5 array and find largest element in each rows */
