@@ -1,3 +1,5 @@
+package JAVA;
+
 public class startsWith{
     public static void main(String args[]){
         String a1 = "Computer Application";

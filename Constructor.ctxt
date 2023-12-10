@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Constructor
+comment1.params=
+comment1.target=Constructor()
+comment2.params=name1\ id1
+comment2.target=Constructor(java.lang.String,\ int)
+comment3.params=
+comment3.target=void\ display()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
