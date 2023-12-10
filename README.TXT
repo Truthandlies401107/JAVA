@@ -4,9 +4,9 @@ Tell the reader (someone who does not know anything about this project)
 all they need to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
+PROJECT TITLE: JAVA_STAR
+PURPOSE OF PROJECT: TO PROVIDE WITH BASIC JAVA PACKAGES
+VERSION or DATE: 6 / 12 / 23
 HOW TO START THIS PROJECT:
-AUTHORS:
+AUTHORS: TRUTHANDLIES401107
 USER INSTRUCTIONS:
